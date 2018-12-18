@@ -1,0 +1,179 @@
+{
+  "bytes": 2754370,
+  "datahub": {
+    "created": "2018-03-28T21:56:50.476336",
+    "findability": "published",
+    "flowid": "36661def37f62e4130670ab75e06465a/oscars-nominees-and-winners/5",
+    "modified": "2018-03-29T06:15:34.958185",
+    "owner": "rufuspollock",
+    "ownerid": "36661def37f62e4130670ab75e06465a"
+  },
+  "hash": "944d471033992661aa7b1607c31f23fe",
+  "id": "36661def37f62e4130670ab75e06465a/oscars-nominees-and-winners",
+  "name": "oscars-nominees-and-winners",
+  "resources": [
+    {
+      "bytes": 733960,
+      "datahub": {
+        "type": "original"
+      },
+      "dpp:streamedFrom": "https://s3.amazonaws.com/rawstore.datahub.io/a269d213f6ac52125b7430b9c08b1591.csv",
+      "encoding": "UTF-8",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "name": "data_original",
+      "path": "archive/data.csv",
+      "pathType": "local",
+      "profile": "data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "format": "default",
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "winner",
+            "type": "boolean"
+          },
+          {
+            "format": "default",
+            "name": "entity",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "bytes": 583,
+      "datahub": {
+        "type": "derived/report"
+      },
+      "description": "Validation report for tabular data",
+      "dpp:streamedFrom": "/tmp/tmpymjtujn0/36661def37f62e4130670ab75e06465a/oscars-nominees-and-winners/validation_report/data/222ce7551d9ad80ab4df85c892f6b53d/validation_report.json",
+      "format": "json",
+      "hash": "222ce7551d9ad80ab4df85c892f6b53d",
+      "name": "validation_report",
+      "path": "data/validation_report.json",
+      "profile": "data-resource"
+    },
+    {
+      "bytes": 745019,
+      "datahub": {
+        "derivedFrom": [
+          "data"
+        ],
+        "type": "derived/csv"
+      },
+      "dialect": {
+        "delimiter": ",",
+        "doubleQuote": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "/tmp/tmpymjtujn0/36661def37f62e4130670ab75e06465a/oscars-nominees-and-winners/data_csv/data/a269d213f6ac52125b7430b9c08b1591/data_csv.csv",
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "a269d213f6ac52125b7430b9c08b1591",
+      "mediatype": "text/csv",
+      "name": "data_csv",
+      "path": "data/data_csv.csv",
+      "pathType": "local",
+      "profile": "data-resource",
+      "rowcount": 11058,
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "format": "default",
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "winner",
+            "type": "boolean"
+          },
+          {
+            "format": "default",
+            "name": "entity",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 1274517,
+      "datahub": {
+        "derivedFrom": [
+          "data"
+        ],
+        "type": "derived/json"
+      },
+      "dpp:streamedFrom": "/tmp/tmpymjtujn0/36661def37f62e4130670ab75e06465a/oscars-nominees-and-winners/data_json/data/d3c23178ad964c76c8ce0ed81762ed7b/data_json.json",
+      "encoding": "utf-8",
+      "format": "json",
+      "hash": "d3c23178ad964c76c8ce0ed81762ed7b",
+      "mediatype": "text/csv",
+      "name": "data_json",
+      "path": "data/data_json.json",
+      "pathType": "local",
+      "profile": "data-resource",
+      "rowcount": 11058,
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "year",
+            "type": "year"
+          },
+          {
+            "format": "default",
+            "name": "category",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "winner",
+            "type": "boolean"
+          },
+          {
+            "format": "default",
+            "name": "entity",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "signed": true
+    },
+    {
+      "bytes": 291,
+      "dpp:streamedFrom": "/tmp/tmpwm_k0w2g/README.md",
+      "format": "md",
+      "name": "readme",
+      "path": "README.md"
+    }
+  ],
+  "title": "Academy Awards Oscars: Nominees and Winners 1927 to Present"
+}
