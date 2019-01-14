@@ -17,6 +17,8 @@
 
 ![Best Moive Genre Analysis](bestpic_genre.png)
 
+![Movies Genre Analysis](genre.png)
+
 ![Oscar Best Picture Nomination Movies' Revenues/Budgets](best_rev.png)
 
 ![Oscar Movie Featue Importants](features.png)
@@ -25,4 +27,4 @@
 
 ![2018 High Revenues Movies](2018highrev.png)
 
-![Prediction Based on 2018 Nov. Short Lists](result_based _on2018shortlist.png)
+![Prediction Based on 2018 Nov. Short Lists](shortlist.png)
