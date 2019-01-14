@@ -25,4 +25,4 @@
 
 ![2018 High Revenues Movies](2018highrev.png)
 
-![Prediction Based on 2018 Nov. Short Lists](result_based_on2018shortlist.png)
+![Prediction Based on 2018 Nov. Short Lists](result_based _on2018shortlist.png)
